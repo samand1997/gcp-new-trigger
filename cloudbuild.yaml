@@ -1,0 +1,9 @@
+steps:
+   - name: 'alpline'
+     entrypoint: 'sh'
+     args:
+         - '-C'
+         - |
+           echo "Cloud build triggered successfully !"
+options:
+  logging: CLOUD_LOGGING_ONLY
