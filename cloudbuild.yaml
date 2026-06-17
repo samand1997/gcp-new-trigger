@@ -1,5 +1,5 @@
 steps:
-   - name: 'alpline'
+   - name: 'ubuntu'
      entrypoint: 'sh'
      args:
          - '-C'
